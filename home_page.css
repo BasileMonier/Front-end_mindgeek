@@ -1,8 +1,22 @@
+body{
+    width: 1920x;
+    height: 2000px;
+    background-color: white;
+    margin: auto;
+}
+.page{
+    width: 1200px;
+    height: 1600px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+}
 /*----- HEADER -----*/
 
 .header{
     border: 2px solid rgb(255, 0, 0);
-    height: 180px;
+    width: 100%;
+    height: 10%;
     display: flex;
 }
 
@@ -92,4 +106,117 @@
     border: 1px solid blue;
     width: 100%;
     height: 50%;
+}
+
+
+/*----- MAIN -----*/
+
+
+.main{
+    border: 2px solid green;
+    width: 100%;
+    height: 75%;
+}
+
+
+
+.big_img{
+    border:2px solid black;
+    width: 100%;
+    height: 30%;
+}
+
+
+
+.search_bar{
+    border: 2px solid black;
+    width: 100%;
+    height: 4%;
+}
+
+
+
+.principal{
+    border: 2px solid black;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.solution{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.titre_solu{
+    border: 1px solid red;
+    width: 100%;
+    height: 20%;
+}
+.info_solu{
+    border: 1px solid red;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.info1_solu{
+    border: 1px solid green;
+    height: 100%;
+    width: 33%;
+}
+.info2_solu{
+    border: 1px solid green;
+    height: 100%;
+    width: 33%;
+}
+.info3_solu{
+    border: 1px solid green;
+    height: 100%;
+    width: 33%;
+}
+
+
+
+.hebergement{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+.titre_heber{
+    border: 1px solid red;
+    width: 100%;
+    height: 20%;
+}
+.info_heber{
+    border: 1px solid red;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.info1_heber{
+    border: 1px solid green;
+    height: 100%;
+    width: 33%;
+}
+.info2_heber{
+    border: 1px solid green;
+    height: 100%;
+    width: 33%;
+}
+.info3_heber{
+    border: 1px solid green;
+    height: 100%;
+    width: 33%;
+}
+
+
+/*----- FOOTER -----*/
+
+
+.footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 14.5%;
 }
