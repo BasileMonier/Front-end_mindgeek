@@ -29,7 +29,6 @@ body{
 }
 
 
-
 .logo{
     height: 100%;
     width: 20%;
@@ -148,9 +147,6 @@ body{
 .fa-user-gear:hover {
     color: rgb(255, 80, 110); 
 }
-a {
-    text-decoration: none;
-}
 /*----- MAIN -----*/
 
 
@@ -159,30 +155,9 @@ a {
     height: auto;
 }
 
-
-
-.big_img{
-    width: 100%;
-    height: 70vh;
-    background-image: url("img/background.png");
-    background-image: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.big_img p{
-    margin-top: 40px;
-}
-h1{
-    font-size: 500%;
-}
-
-
 .search_bar{
     width: 100%;
-    height: 4vh;
+    height: 5vh;
     background-color:rgba(253, 138, 155, 1.00);
     display: flex;
     flex-direction: column;
@@ -194,137 +169,184 @@ h1{
     font-size: large;
 }
 
-.principal{
+.principal {
     width: 100%;
-    height: 65vh;
+    height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.solution{
-    margin-top: 50px;
-    border: 2px dotted grey;
-    width: 90%;
-    height: 50vh;
+
+.haut{
+    margin-top: 5vh;
     display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-.titre_solu{
+    justify-content: center;
     width: 100%;
-    height: 20%;
+    height: 22vh;
+}
+.info{
+    border: 2px dotted gray;
+    width: 80%;
+    height: 100%;
+}
+.titre_info{
+    width: 100%;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h3{
+h1{
     font-size: xx-large;
 }
-.info_solu{
+.txt_info{
     width: 100%;
-    height: 80%;
+    height: 10vh;
     display: flex;
-}
-.info1_solu{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-.img_spe{
-    font-size: 5vh;
-}
-.info1_solu p{
-    color: gray;
-}
-
-h4{
-    color: rgb(253, 138, 155);
-    font-size: x-large;
-}
-
-.info2_solu{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-}
-.info2_solu p{
-    color: gray;
-}
-.info3_solu{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.info3_solu p{
+p{
     color: gray;
 }
 
 
-.hebergement{
-    margin-top: 50px;
-    border: 2px dotted grey;
-    width: 90%;
+
+.bas{
+    margin-top: 5vh;
+    width: 80%;
     height: 50vh;
-    align-self: center;
+    display: flex;
+    justify-content: space-between;
+
 }
-.titre_heber{
-    width: 100%;
-    height: 20%;
+.game{
+   border: 2px dotted gray;
+   width: 30%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.titre_game{
+    width: 90%;
+    height: 8vh;
+    margin-top: 2vh;
+    background-color: rgb(33, 63, 79);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.info_heber{
-    width: 100%;
-    height: 80%;
-    display: flex;
+.txt_game{
+    margin-top: 3vh;
+    width: 90%;
+    height: 20vh;
+
 }
-.info1_heber{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.info1_heber p{
+ul {
+    margin-left: 2vh;
     color: gray;
 }
-h5{
-    color: rgb(253, 138, 155);
+li {
+    margin-bottom: 1vh;
+}
+.prix_game{
+    margin-top: 2vh;
+    color: rgb(134, 44, 44);
     font-size: large;
 }
-.info2_heber{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+button{
+    margin-top: 2vh;
+    background-color: rgb(253, 138, 155);
+    color: white;
+    border: none;
+    padding: 20px 100px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
-.info2_heber p{
-    color: gray;
-}
-.info3_heber{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.info3_heber p{
-    color: gray;
+button:hover {
+    background-color: rgb(255, 80, 110);
+    transition: background-color 0.3s;
 }
 
+
+
+.stockage{
+    border: 2px dotted gray;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titre_stockage{
+    width: 90%;
+    height: 8vh;
+    margin-top: 2vh;
+    background-color: rgb(33, 63, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt_stockage{
+    margin-top: 3vh;
+    width: 90%;
+    height: 20vh;
+
+}
+.prix_stockage{
+    margin-top: 2vh;
+    color: rgb(134, 44, 44);
+    font-size: large;
+}
+
+
+
+
+.hdg{
+    border: 2px dotted gray;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titre_hdg{
+    width: 90%;
+    height: 8vh;
+    margin-top: 2vh;
+    background-color: rgb(33, 63, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt_hdg{
+    margin-top: 3vh;
+    width: 90%;
+    height: 20vh;
+
+}
+.prix_hdg{
+    margin-top: 2vh;
+    color: rgb(134, 44, 44);
+    font-size: large;
+}
+
+
+
+
+
+
+
+h3{
+   color: white; 
+   font-size: x-large;
+}
+
+
+a {
+    text-decoration: none;
+}
 /*----- FOOTER -----*/
 
 
@@ -336,6 +358,7 @@ h5{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.footer p{
     color: white;
 }
-
