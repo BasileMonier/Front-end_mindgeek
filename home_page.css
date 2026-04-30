@@ -1,0 +1,95 @@
+/*----- HEADER -----*/
+
+.header{
+    border: 2px solid rgb(255, 0, 0);
+    height: 180px;
+    display: flex;
+}
+
+
+
+.logo{
+    border: 2px solid black;
+    height: 100%;
+    width: 20%;
+}
+
+
+
+.serv_mutu{
+    border: 2px solid black;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.img_mutu{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+.txt_mutu{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.serv_de{
+    border: 2px solid black;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.img_de{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+.txt_de{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.cloud{
+    border: 2px solid black;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.img_cloud {
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+.txt_cloud {
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.contact{
+    border: 2px solid black;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.img_cont {
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
+.txt_cont {
+    border: 1px solid blue;
+    width: 100%;
+    height: 50%;
+}
