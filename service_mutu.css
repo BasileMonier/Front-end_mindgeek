@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 h1, h2 {
@@ -8,9 +9,8 @@ h1, h2 {
     font-size: medium;
 }
 body{
-    width: 1920px;
-    height: 100vh;
-    background-color: white;
+    width: 100%;
+    max-width: 1920px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
 }
@@ -43,7 +43,7 @@ body{
 
 
 
-.serv_mutu{
+.serv_mutu, .serv_de, .cloud, .contact{
     height: 100%;
     width: 20%;
     display: flex;
@@ -67,12 +67,7 @@ body{
 
 
 
-.serv_de{
-    height: 100%;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
+
 .img_de{
     width: 100%;
     height: 50%;
@@ -90,12 +85,7 @@ body{
 
 
 
-.cloud{
-    height: 100%;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
+
 .img_cloud {
     width: 100%;
     height: 50%;
@@ -113,12 +103,7 @@ body{
 
 
 
-.contact{
-    height: 100%;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
+
 .img_cont {
     width: 100%;
     height: 50%;
@@ -175,16 +160,17 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 22vh;
+    height: auto;
 }
 .info{
     border: 2px dotted gray;
     width: 80%;
-    height: 100%;
+    height: auto;
 }
 .titre_info{
     width: 100%;
-    height: 8vh;
+    height: auto;
+    min-height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,45 +180,48 @@ h1{
 }
 .txt_info{
     width: 100%;
-    height: 10vh;
+    height: auto;
+    min-height: 10vh;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
-p{
+.txt_info p{
     color: gray;
 }
-
-
-
 .bas{
     margin-top: 5vh;
     width: 80%;
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
     display: flex;
     justify-content: space-between;
 
 }
-.game{
+.game, .stockage, .hdg{
    border: 2px dotted gray;
    width: 30%;
-   height: 100%;
+   height: auto;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
-.titre_game{
+.titre_game, .titre_stockage, .titre_hdg{
     width: 90%;
-    height: 8vh;
+    height: auto;
+    min-height: 8vh;
     margin-top: 2vh;
     background-color: rgb(33, 63, 79);
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.txt_game{
+.txt_game, .txt_stockage, .txt_hdg{
     margin-top: 3vh;
     width: 90%;
-    height: 20vh;
+    height: auto;
+    min-height: 20vh;
 
 }
 ul {
@@ -242,7 +231,7 @@ ul {
 li {
     margin-bottom: 1vh;
 }
-.prix_game{
+.prix_game, .prix_stockage, .prix_hdg{
     margin-top: 2vh;
     color: rgb(134, 44, 44);
     font-size: large;
@@ -252,7 +241,8 @@ button{
     background-color: rgb(253, 138, 155);
     color: white;
     border: none;
-    padding: 20px 100px;
+    padding: 12px 24px;
+    width: 100%;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
 }
@@ -260,76 +250,6 @@ button:hover {
     background-color: rgb(255, 80, 110);
     transition: background-color 0.3s;
 }
-
-
-
-.stockage{
-    border: 2px dotted gray;
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.titre_stockage{
-    width: 90%;
-    height: 8vh;
-    margin-top: 2vh;
-    background-color: rgb(33, 63, 79);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.txt_stockage{
-    margin-top: 3vh;
-    width: 90%;
-    height: 20vh;
-
-}
-.prix_stockage{
-    margin-top: 2vh;
-    color: rgb(134, 44, 44);
-    font-size: large;
-}
-
-
-
-
-.hdg{
-    border: 2px dotted gray;
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.titre_hdg{
-    width: 90%;
-    height: 8vh;
-    margin-top: 2vh;
-    background-color: rgb(33, 63, 79);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.txt_hdg{
-    margin-top: 3vh;
-    width: 90%;
-    height: 20vh;
-
-}
-.prix_hdg{
-    margin-top: 2vh;
-    color: rgb(134, 44, 44);
-    font-size: large;
-}
-
-
-
-
-
-
-
 h3{
    color: white; 
    font-size: x-large;
@@ -345,12 +265,81 @@ a {
 .footer{
     margin-top: 50px;
     width: 100%;
-    height: 10vh;
+    height: auto;
+    min-height: 10vh;
     background-color: rgb(33, 63, 79);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .footer p{
     color: white;
+}
+/* ── TABLETTE (≤ 900px) ── */
+@media (max-width: 900px) {
+
+    /* Header : icônes plus petites */
+    .img {
+        font-size: 130%;
+    }
+
+    .txt_mutu, .txt_de, .txt_cloud, .txt_cont {
+        font-size: 11px;
+    }
+
+    /* Cartes : 2 colonnes au lieu de 3 */
+    .bas {
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .game, .stockage, .hdg {
+        width: 47%;
+    }
+}
+
+
+/* ── MOBILE (≤ 600px) ── */
+@media (max-width: 600px) {
+
+    /* Header : empilé verticalement */
+    .header {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 8px 0;
+    }
+    .logo { 
+        width: 100%; height: 50px;
+     }
+
+    .serv_mutu, .serv_de, .cloud, .contact {
+        width: 25%;    /* 4 icônes sur une ligne */
+        height: 60px;
+    }
+    .img_mutu, .img_de, .img_cloud, .img_cont {
+        margin-top: 5px;
+    }
+    .img { font-size: 110%; }
+
+    /* Info : pleine largeur */
+    .info { width: 95%; }
+
+    /* Cartes : 1 colonne */
+    .bas { 
+        width: 95%; flex-direction: column;
+     }
+    .game, .stockage, .hdg { 
+        width: 100%; height: auto; padding-bottom: 16px;
+     }
+
+    /* Bouton : pleine largeur */
+    button { 
+        width: 90%; padding: 12px;
+     }
+
+    /* Footer : centré */
+    .footer { 
+        flex-direction: column; text-align: center;
+     }
 }
