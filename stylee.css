@@ -1,0 +1,426 @@
+body{
+    font-family:Arial, sans-serif;
+    margin: 0;
+}
+
+
+
+.carre{ 
+    border: 2px solid white;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+.en-haut{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.class1{
+    height:100% ;
+    width: 17%;
+    display: flex;
+    justify-content: center;  
+}
+.class2{
+    height:100%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+}
+.image{
+    height: 30%;
+    width: 30%;
+}
+.texte{
+    height:30% ;
+    width: 90%;
+    
+}
+h2{
+    margin-bottom: 4px;
+    font-size: x-large;
+}
+p{
+    margin-top: 0%;
+    font-style: unset;
+    font-size:xx-small
+}
+.class2 h1{
+    color: black;
+    font-size: 11px;
+    font-weight:bold;
+}
+.class2 p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow:2px 2px 4px black ;
+}
+
+.class3{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+}
+.class3 h1{
+    color: black;
+    font-size: 11px;
+}
+.class4{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+}
+.class4 h1{
+    color: pink;
+    font-size: 11px;
+}
+
+.class5{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    align-self: normal;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    
+}
+.class5 h1{
+    color: black;
+    font-size: 11px;
+}
+
+.un-peu{
+    height:5% ;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+.un-peu h1{
+    color: white;
+    font-size: 15px;
+}
+
+.millieu{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.haut{ 
+height: 20%;
+width: 90%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+justify-content:space-between;
+}
+.haut{
+  border-top: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+}
+.haut h1{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+.haut p{
+    color: black;
+}
+
+
+.en-bas{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.droit{
+    height:80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.droit{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+.au{
+    height:15% ;
+    width: 90%;
+    background-color: rgb(38, 74, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tx{
+    height:60%;
+    width: 90%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.point ::before{
+    content:"•"; 
+    margin-right: 11px;
+}
+.tx h1{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bs{
+    height:10%;
+    width:90%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bs h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.au h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.un-peu-millieu{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.un-peu-millieu{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+.z{
+    height: 15%;
+    width: 90%;
+    background-color: rgb(38, 74, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.z h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.texte{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.texte h1{
+    font-size: 15px;
+}
+.be{
+    height: 10%;
+    width: 90%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.be h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+.gauche{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.gauche{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+.k{
+    height: 15%;
+    width: 90%;
+    background-color: rgb(38, 74, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.k h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.br{
+    height: 10%;
+    width: 90%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.br h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bas{
+    height:20% ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(38, 74, 90);
+}
+.bas1{
+    height: 30%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bas1 h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+ 
+}
+.bas2{
+    height: 30%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bas2 h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bas3{
+    height: 30%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bas3 h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bas4{
+    height: 30%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bas4 h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bas5{
+    height: 30%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bas5 h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bas6{
+    height:30% ;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.bas6 h1{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    height: 50%;
+    width:auto;
+    background-color: transparent;
+}
+.box{
+    padding: 20px;
+    border: 1px solid black;
+}
+@media (min-width: 768px) {
+    .carre{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 50%;
+    }
+}
+ @media (min-width: 1024px) {
+    .box{
+        width: 30%;
+    }
+    
+ }
